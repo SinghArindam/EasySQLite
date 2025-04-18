@@ -1,9 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "easysqlite"
+name = "easysqlite-lib" # Taking the name from setup.py as it seems intended for PyPI
 version = "0.1.0"
-description = "Add your description here"
+description = "A user-friendly Python wrapper for SQLite." # Taking description from setup.py
 readme = "README.md"
-requires-python = ">=3.11"
-dependencies = [
-    "pytest>=8.3.5",
+requires-python = ">=3.8" # Taking the minimum Python version from setup.py
+license = { file = "LICENSE" } # Assuming you have an LICENSE file for Apache 2.0
+keywords = ["sqlite", "sqlite3", "database", "wrapper", "easy", "simple", "python"] # Taking keywords from setup.py
+authors = [
+  { name = "Arindam Singh", email = "aa7is789@gmail.com" }, # Taking author from setup.py
 ]
+classifiers = [ # Taking classifiers from setup.py
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: Apache License, Version 2.0",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Database",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 4 - Beta",
+]
+
+[project.urls] # Combining url and project_urls from setup.py
+"Homepage" = "https://github.com/SinghArindam/EasySQLite"
+"Bug Reports" = "https://github.com/SinghArindam/EasySQLite/issues"
+"Source" = "https://github.com/SinghArindam/EasySQLite"
+
+# [project.dependencies] # Runtime dependencies (none specified in setup.py)
+# No external dependencies required based on the implementation
+# Add any if needed in the future, e.g., 'typing_extensions; python_version<"3.8"'
+
+[project.optional-dependencies]
+dev = [ # Development dependencies from your original pyproject.toml
+    "build>=1.2.2.post1",
+    "pytest>=8.3.5",
+    "twine>=6.1.0",
+]
+
+[tool.setuptools] # Configuration specific to setuptools
+packages = ["easysqlite"] # Explicitly list your package(s) here or use find:
+# packages = { find = {} } # Alternatively, let setuptools find packages automatically

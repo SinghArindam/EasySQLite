@@ -9,7 +9,7 @@ setup(
     name="easysqlite-lib", # Choose a unique name for PyPI
     version="0.1.0",      # Sync with __init__.py
     author="Arindam Singh",   # Replace with your name
-    author_email="arindam0singh@gmail.com", # Replace with your email
+    author_email="aa7is789@gmail.com", # Replace with your email
     description="A user-friendly Python wrapper for SQLite.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -17,7 +17,6 @@ setup(
     packages=find_packages(), # Automatically find the 'easysqlite' package
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7", # Specify compatible Python versions
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",

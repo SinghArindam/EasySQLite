@@ -1,0 +1,5 @@
+
+[dev]
+build>=1.2.2.post1
+pytest>=8.3.5
+twine>=6.1.0
