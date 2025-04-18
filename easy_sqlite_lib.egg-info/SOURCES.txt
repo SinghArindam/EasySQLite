@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+easy_sqlite_lib.egg-info/PKG-INFO
+easy_sqlite_lib.egg-info/SOURCES.txt
+easy_sqlite_lib.egg-info/dependency_links.txt
+easy_sqlite_lib.egg-info/requires.txt
+easy_sqlite_lib.egg-info/top_level.txt
+easysqlite/__init__.py
+easysqlite/db.py
+easysqlite/exceptions.py
+tests/test_easysqlite.py

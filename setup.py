@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="easysqlite-lib", # Choose a unique name for PyPI
+    name="easy-sqlite-lib", # Choose a unique name for PyPI
     version="0.1.0",      # Sync with __init__.py
     author="Arindam Singh",   # Replace with your name
     author_email="aa7is789@gmail.com", # Replace with your email
@@ -21,14 +21,14 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
-        "License :: OSI Approved :: Apache License, Version 2.0", # Choose your license
+        "License :: OSI Approved :: Apache Software License", # Choose your license
         "Operating System :: OS Independent",
         "Intended Audience :: Developers",
         "Topic :: Database",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Development Status :: 4 - Beta", # Or 5 - Production/Stable once ready
     ],
-    python_requires='>=3.7', # Minimum Python version dependency
+    python_requires='>=3.8', # Minimum Python version dependency
     install_requires=[
         # No external dependencies required based on the implementation
         # Add any if needed in the future, e.g., 'typing_extensions; python_version<"3.8"'

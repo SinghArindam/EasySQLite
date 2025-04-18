@@ -1,5 +1,5 @@
 Metadata-Version: 2.4
-Name: easysqlite-lib
+Name: easy-sqlite-lib
 Version: 0.1.0
 Summary: A user-friendly Python wrapper for SQLite.
 Home-page: https://github.com/SinghArindam/EasySQLite
@@ -216,13 +216,13 @@ Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
 Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
-Classifier: License :: OSI Approved :: Apache License, Version 2.0
+Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Operating System :: OS Independent
 Classifier: Intended Audience :: Developers
 Classifier: Topic :: Database
 Classifier: Topic :: Software Development :: Libraries :: Python Modules
 Classifier: Development Status :: 4 - Beta
-Requires-Python: >=3.7
+Requires-Python: >=3.8
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Provides-Extra: dev
