@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "easy-sqlite-lib" # Taking the name from setup.py as it seems intended for PyPI
-version = "0.1.0"
+version = "0.1.2"
 description = "A user-friendly Python wrapper for SQLite." # Taking description from setup.py
 readme = "README.md"
 requires-python = ">=3.8" # Taking the minimum Python version from setup.py

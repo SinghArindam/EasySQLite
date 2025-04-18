@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="easy-sqlite-lib", # Choose a unique name for PyPI
-    version="0.1.0",      # Sync with __init__.py
+    version="0.1.2",      # Sync with __init__.py
     author="Arindam Singh",   # Replace with your name
     author_email="aa7is789@gmail.com", # Replace with your email
     description="A user-friendly Python wrapper for SQLite.",
@@ -28,6 +28,9 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Development Status :: 4 - Beta", # Or 5 - Production/Stable once ready
     ],
+    package_data={
+       '': ['LICENSE',],
+    },
     python_requires='>=3.8', # Minimum Python version dependency
     install_requires=[
         # No external dependencies required based on the implementation
