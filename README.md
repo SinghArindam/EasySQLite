@@ -1,6 +1,6 @@
 # EasySQLite
 
-**Version: 1.0.0**
+**Version: 0.1.0**
 
 A lightweight, intuitive Python library that acts as a wrapper around Python's built-in `sqlite3` module. Its primary purpose is to significantly simplify common database operations for users who are not familiar with SQL syntax or find the standard `sqlite3` API verbose for simple tasks.
 
@@ -8,7 +8,7 @@ A lightweight, intuitive Python library that acts as a wrapper around Python's b
 
 Working directly with `sqlite3` requires SQL knowledge and careful handling of connections, cursors, transactions, and data types. EasySQLite provides a Pythonic interface, reducing boilerplate and abstracting common SQL commands.
 
-## Features (v1.0)
+## Features (v0.1)
 
 * Connect to/create SQLite database files easily.
 * Context manager (`with` statement) for automatic connection handling (commit/rollback, close).
